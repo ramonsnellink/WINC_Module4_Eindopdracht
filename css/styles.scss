@@ -1,0 +1,28 @@
+@import "./reset";
+body {
+  background-color: black;
+  color: white;
+}
+
+.page-header {
+  &__title {
+    font-size: 2rem;
+  }
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.movielist {
+  list-style-type: none;
+}
+
+.movie {
+  & img {
+    width: 100%;
+    height: auto;
+  }
+}

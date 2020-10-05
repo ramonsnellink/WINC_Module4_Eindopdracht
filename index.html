@@ -8,5 +8,36 @@
     <script defer type="text/javascript" src="./js/movies.js"></script>
     <script defer type="text/javascript" src="./js/script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="page-header"><h1 class="page-header__title">Movie Finder</h1></div>
+    <nav class="navigation">
+      <div class="navigation__item">
+        <input type="radio" name="film-filter" id="newest" value="newest" />
+        <label for="newest">Laatste films, 2014 of nieuwer</label>
+      </div>
+
+      <div class="navigation__item">
+        <input type="radio" name="film-filter" id="avengers" value="avengers" />
+        <label for="avengers">Avenger Films</label>
+      </div>
+
+      <div class="navigation__item">
+        <input type="radio" name="film-filter" id="x-men" value="x-men" />
+        <label for="x-men">X-Men Films</label>
+      </div>
+
+      <div class="navigation__item">
+        <input type="radio" name="film-filter" id="princess" value="princess" />
+        <label for="princess">Princess Films</label>
+      </div>
+
+      <div class="navigation__item">
+        <input type="radio" name="film-filter" id="batman" value="batman" />
+        <label for="batman">BatmanFilms</label>
+      </div>
+    </nav>
+    <main class="movielist-container">
+      <ul class="movielist"></ul>
+    </main>
+  </body>
 </html>

@@ -1,4 +1,3 @@
-console.log("movies.js")
 const movies = [
   {
     Title: "X-Men: Days of Future Past",
